@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Water+Brush&display=swap");
+
+:root {
+  --primary-color: #df5646;
+  --secondary-color: #ffc10757;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --blue-black: #255983;
+  --hover-red: #b6594e;
+  --light-gray: #726b6b;
+}
+body {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  padding: 0px 100px;
+}
+h1 {
+  font-size: calc(1.525rem + 1.75vmin + 1.75vmax);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+/* navbar section */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+.nav-brand {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Water Brush", cursive;
+}
+.nav-sub-one {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-sub-two {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-list-items a {
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: "Poppins", sans-serif;
+  padding: 0px 5px;
+}
+.nav-list-items:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px var(--primary-color);
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+.nav-list-items:hover:after {
+  transform: scaleX(1);
+  border-bottom: 3px solid var(--primary-color);
+  transform-origin: 0% 50%;
+}
+/* hero section */
+.hero-section {
+  display: flex;
+  min-height: 80vh;
+}
+.hero-sub-one,
+.hero-sub-two {
+  width: 50%;
+}
+/* hero section left */
+.hero-sub-one {
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+}
+.straight-dash {
+  border-top: 1px solid var(--black-color);
+  width: 30px;
+  height: 2px;
+}
+.badge {
+  margin: 0px 20px;
+  padding: 2px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.name {
+  color: var(--primary-color);
+}
+.role {
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  font-weight: light;
+  color: var(--blue-black);
+}
+.description {
+  width: 60%;
+  font-size: 17px;
+  font-weight: light;
+  word-wrap: break-word;
+  font-family: "Poppins", sans-serif;
+  color: var(--light-gray);
+}
+.about-mid {
+  padding: 20px 0px;
+}
+.hire-me {
+  border: none;
+  padding: 15px 20px;
+  font-size: 17px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+.hire-me:hover {
+  background-color: var(--hover-red);
+  transition: all 300ms ease-in-out;
+}
+.arrow-right {
+  margin: 2px;
+  padding: 2px;
+}
+.arrow-right:hover {
+  padding-left: 10px;
+  transition: all 300ms ease-in-out;
+}
+/* hero section right */
+.hero-sub-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img {
+  height: 600px;
+  width: 600px;
+}
