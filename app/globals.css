@@ -11,12 +11,10 @@ body {
   overflow-x: hidden;
 }
 
-.exp-card:hover h2:first-child {
+.exp-card:hover :first-child {
   color: #facc15;
 }
 .exp-card:hover .arrow-upward {
   transform: translate3d(5px, -5px, 0px);
   transition: 0.15s ease-in;
 }
-
-
