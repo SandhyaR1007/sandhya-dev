@@ -17,7 +17,11 @@ function GlowEffect() {
       window.removeEventListener("mousemove", handleMouseMove);
     };
   }, []);
-
+  {
+    /* <span className="absolute inset-0 overflow-hidden rounded-full">
+        <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+      </span> */
+  }
   return (
     <div>
       <div
@@ -30,7 +34,7 @@ function GlowEffect() {
           //   backgroundColor: "rgba(0, 38, 255, 0.1)",
           borderRadius: "50%",
           background:
-            "radial-gradient(1058px, rgba(29, 78, 216, 0.15), transparent 80%)",
+            "radial-gradient(300px, rgba(255,241,38, 0.05), transparent 90%), radial-gradient(350px, rgba(255,255,255, 0.01), transparent 90%)",
           pointerEvents: "none",
           transform: "translate(-50%, -50%)",
         }}
