@@ -1,10 +1,10 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
-import { Card } from "./Card";
+import { Card } from "./ui/Card";
 
 const Experience = () => {
   return (
-    <div>
+    <div id="experience">
       {exps.map((ex) => (
         <Card {...ex} />
       ))}

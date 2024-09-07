@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 import Socials from "./Socials";
 
 const HeaderComponent = () => {
@@ -10,39 +11,9 @@ const HeaderComponent = () => {
           I build pixel-perfect, engaging, and accessible digital experiences.{" "}
         </p>
       </section>
-      <nav>
-        <a
-          href="#about"
-          className="flex  items-center gap-3 active:text-white text-slate-400"
-        >
-          <p className="w-14 h-0.5 bg-slate-400 " />
-          <p className="text-[16px] font-semibold text-slate-400">ABOUT</p>
-        </a>
-        <a
-          href="#experience"
-          className="flex  items-center gap-3 active:text-white text-slate-400"
-        >
-          <p className="w-14 h-0.5 bg-slate-400" />
-          <p className="text-[16px] font-semibold text-slate-400">EXPERIENCE</p>
-        </a>
-        <a
-          href="#technology"
-          className="flex  items-center gap-3 active:text-white text-slate-400"
-        >
-          <p className="w-14 h-0.5 bg-slate-400" />
-          <p className="text-[16px] font-semibold ">TECHNOLOGY</p>
-        </a>
-        <a
-          href="#projects"
-          className="flex  items-center gap-3 active:text-white text-slate-400"
-        >
-          <p className="w-14 h-0.5 bg-slate-400" />
-          <p className="text-[16px] font-semibold ">PROJECTS</p>
-        </a>
-      </nav>
-      <section>
-        <Socials />
-      </section>
+      <Navbar />
+
+      <Socials />
     </header>
   );
 };

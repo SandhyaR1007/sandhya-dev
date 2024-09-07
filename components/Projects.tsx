@@ -1,8 +1,8 @@
-import { Card } from "./Card";
+import { Card } from "./ui/Card";
 
 const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       <div>
         {projects.map((ex) => (
           <Card {...ex} />

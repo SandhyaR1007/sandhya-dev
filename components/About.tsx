@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div className="text-lg flex flex-col gap-5 p-5 text-neutral-400">
+    <div
+      className="text-lg flex flex-col gap-5 p-5 text-neutral-400"
+      id="about"
+    >
       <p>
         I am a frontend developer, passionate about creating clean, intuitive
         web applications. I specialize in{" "}
