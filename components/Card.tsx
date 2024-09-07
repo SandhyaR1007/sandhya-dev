@@ -22,7 +22,7 @@ export const Card = (props: any) => {
         <ul className="flex items-center gap-3 flex-wrap">
           {skills.map((skill: string, index: number) => (
             <li
-              key={index}
+              key={`${index}-${skill}`}
               className="text-yellow-300 bg-[rgba(255,241,38,0.2)] px-4 py-1.5 rounded-full text-sm"
             >
               {skill}

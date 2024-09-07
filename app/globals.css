@@ -5,6 +5,7 @@
 body {
   background-color: #0f172a;
   color: #f1f5f9;
+  overflow-x: hidden;
 }
 
 .exp-card:hover h2:first-child {
