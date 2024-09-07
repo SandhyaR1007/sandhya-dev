@@ -3,10 +3,11 @@ import { MdArrowOutward } from "react-icons/md";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import About from "./About";
+import Footer from "./Footer";
 
 const MainComponent = () => {
   return (
-    <main className="w-[50%] relative left-[300px] flex flex-col gap-16">
+    <main className="md:w-[50%] relative md:left-[300px] flex flex-col gap-16">
       <About />
 
       <Experience />
@@ -15,7 +16,7 @@ const MainComponent = () => {
           "https://drive.google.com/file/d/1Fk2HBPrkhg5um22zMfCRPnS-Bg39XXlQ/view?usp=drive_link"
         }
         target="_blank"
-        className="flex items-center gap-1 text-xl p-5"
+        className="flex items-center gap-1 text-xl p-5 exp-card"
       >
         <span>View Full Resume</span>
         <span>
@@ -24,6 +25,7 @@ const MainComponent = () => {
       </a>
 
       <Projects />
+      <Footer />
     </main>
   );
 };
