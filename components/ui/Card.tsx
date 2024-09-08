@@ -8,7 +8,7 @@ export const Card = (props: any) => {
         <div className="text-neutral-400 text-sm  w-1/4">{props.exp}</div>
       ) : (
         <div className="w-1/4">
-          <img className="w-36 h-24 rounded-sm" src={lnk} alt="logo" />
+          <img className="w-36 h-24 rounded-sm" src={props.link} alt="logo" />
         </div>
       )}
       <div className="w-3/4 flex flex-col gap-3">
@@ -33,6 +33,3 @@ export const Card = (props: any) => {
     </div>
   );
 };
-
-const lnk =
-  "https://m.media-amazon.com/images/M/MV5BMDhmMGJiNzYtZDQ2MS00MDIwLWI4ZDMtOThhMTk0MWQ0ZTE2XkEyXkFqcGdeQXVyMzExMzk5MTQ@._V1_.jpg";
