@@ -7,14 +7,18 @@ export const projects = [
     description:
       "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
     skills: ["JavaScript", "React", "Context API", "Tailwind CSS"],
-    link: "https://res.cloudinary.com/dwdcib0hv/image/upload/v1725788322/projects/eyesomess_b9e3na.png",
+    image:
+      "https://res.cloudinary.com/dwdcib0hv/image/upload/v1725788322/projects/eyesomess_b9e3na.png",
+    link: "https://eyesome.netlify.app/",
   },
   {
     title: "Webuzz",
     description:
       "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
     skills: ["JavaScript", "React", "Redux", "Tailwind CSS"],
-    link: "https://res.cloudinary.com/dwdcib0hv/image/upload/v1725788322/projects/webuzzss_k7ouva.png",
+    image:
+      "https://res.cloudinary.com/dwdcib0hv/image/upload/v1725788322/projects/webuzzss_k7ouva.png",
+    link: "https://webuzz.netlify.app/",
   },
 ];
 
@@ -43,3 +47,9 @@ export const experience = [
     link: "",
   },
 ];
+
+export const socials = {
+  github: "https://github.com/SandhyaR1007",
+  linkedin: "https://www.linkedin.com/in/sandhyarajwanshi/",
+  twitter: "https://x.com/SandhyaR1007",
+};

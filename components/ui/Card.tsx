@@ -1,14 +1,19 @@
 import { MdArrowOutward } from "react-icons/md";
+import { socials } from "../utils";
 
 export const Card = (props: any) => {
-  const { title, description, skills } = props;
+  const { title, description, skills, link = "" } = props;
   return (
-    <div className="flex p-5 rounded-md hover:bg-[rgba(253,224,71,0.05)]   transition-[0.5s] exp-card">
+    <a
+      className="flex p-5 rounded-md hover:bg-[rgba(253,224,71,0.05)]   transition-[0.5s] exp-card"
+      href={link || socials.linkedin}
+      target="_blank"
+    >
       {props.exp ? (
         <div className="text-neutral-400 text-sm  w-1/4">{props.exp}</div>
       ) : (
         <div className="w-1/4 px-3 py-1">
-          <img className="w-36 h-24 rounded-md" src={props.link} alt="logo" />
+          <img className="w-36 h-24 rounded-md" src={props.image} alt={title} />
         </div>
       )}
       <div className="w-3/4 flex flex-col gap-3">
@@ -30,6 +35,6 @@ export const Card = (props: any) => {
           ))}
         </ul>
       </div>
-    </div>
+    </a>
   );
 };
