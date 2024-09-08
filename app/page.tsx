@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <GlowEffect />
-      <div className="flex flex-col md:flex-row md:justify-center p-1 sm:p-10 md:px-40 md:py-28 relative scroll-smooth">
+      <div className="flex flex-col lg:flex-row lg:justify-center p-1 sm:p-10 lg:px-40 lg:py-28 relative scroll-smooth">
         <HeaderComponent />
         <MainComponent />
       </div>

@@ -7,12 +7,12 @@ export const Card = (props: any) => {
       {props.exp ? (
         <div className="text-neutral-400 text-sm  w-1/4">{props.exp}</div>
       ) : (
-        <div className="w-1/4">
-          <img className="w-36 h-24 rounded-sm" src={props.link} alt="logo" />
+        <div className="w-1/4 px-3 py-1">
+          <img className="w-36 h-24 rounded-md" src={props.link} alt="logo" />
         </div>
       )}
       <div className="w-3/4 flex flex-col gap-3">
-        <h2 className="text-white text-xl flex items-center gap-1">
+        <h2 className="text-white text-lg flex items-center gap-1">
           <span>{title}</span>{" "}
           <span>
             <MdArrowOutward className="arrow-upward" />

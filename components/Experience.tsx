@@ -1,41 +1,19 @@
 import React from "react";
-import { MdArrowOutward } from "react-icons/md";
+
 import { Card } from "./ui/Card";
+import { experience } from "./utils";
 
 const Experience = () => {
   return (
     <div id="experience">
-      {exps.map((ex) => (
-        <Card {...ex} />
+      <p className=" lg:hidden text-lg font-semibold text-slate-400 tracking-[0.15rem] py-2 ps-5">
+        EXPERIENCE
+      </p>
+      {experience.map((ex, i) => (
+        <Card {...ex} key={i} />
       ))}
     </div>
   );
 };
 
 export default Experience;
-
-const exps = [
-  {
-    exp: "2023-PRESENT",
-    title: "Frontend Engineer- Businessnext",
-    description:
-      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    skills: ["JavaScript", "TypeScript", "React"],
-    link: "",
-  },
-  {
-    exp: "2021-2023",
-    title: "Senior IT Associate - vDoIT Technologies",
-    description:
-      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "Redux",
-      "React Native",
-      "Electron.js",
-    ],
-    link: "",
-  },
-];

@@ -4,6 +4,9 @@ const About = () => {
       className="text-lg flex flex-col gap-5 p-5 text-neutral-400"
       id="about"
     >
+      <p className="lg:hidden text-lg font-semibold text-slate-400 tracking-[0.15rem] py-2 ">
+        ABOUT
+      </p>
       <p>
         I am a frontend developer, passionate about creating clean, intuitive
         web applications. I specialize in{" "}

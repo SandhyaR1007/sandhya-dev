@@ -1,7 +1,7 @@
 "use client";
 const Navbar = () => {
   return (
-    <nav className="hidden md:flex flex-col gap-4 ">
+    <nav className="hidden lg:flex flex-col gap-4 ">
       <a
         href="#about"
         className="flex  items-center gap-3 active:text-white text-slate-400 "
