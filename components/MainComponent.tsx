@@ -8,7 +8,7 @@ import Resume from "./Resume";
 
 const MainComponent = () => {
   return (
-    <main className="lg:w-[50%] relative lg:left-[300px] flex flex-col gap-16">
+    <main className="lg:w-[50%] relative lg:left-[250px] flex flex-col gap-16">
       <About />
 
       <Experience />
