@@ -1,5 +1,6 @@
-import { FaGithub, FaLinkedin, FaMailBulk, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { socials } from "./utils";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Socials = () => {
   return (
@@ -17,7 +18,7 @@ const Socials = () => {
       </li>
       <li className="text-3xl text-neutral-400 hover:text-white">
         <a href={socials.twitter} target="_blank">
-          <FaTwitter />
+          <FaSquareXTwitter />
         </a>
       </li>
     </ul>
