@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Footer from "./Footer";
 import Resume from "./Resume";
+import Link from "next/link";
 
 const MainComponent = () => {
   return (
@@ -15,6 +16,15 @@ const MainComponent = () => {
       <Resume />
 
       <Projects />
+      <Link
+        href="/projects"
+        className="flex items-center gap-1 text-xl p-5 exp-card"
+      >
+        <span>View All Projects</span>
+        <span>
+          <MdArrowOutward className="arrow-upward" />
+        </span>
+      </Link>
       <Footer />
     </main>
   );
