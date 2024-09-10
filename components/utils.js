@@ -25,9 +25,9 @@ export const projects = [
 export const experience = [
   {
     exp: "2023-PRESENT",
-    title: "Frontend Engineer- Businessnext",
+    title: "Frontend Engineer - Businessnext",
     description:
-      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "Implemented an interactive drag-and-drop interface using Craft.js and various DnD libraries, significantly enhancing the user experience and simplifying the design process. Developed custom components and optimized state management for smooth performance and responsive-ness, collaborating with UX/UI designers to create functional and visually appealing interfaces.",
     skills: ["JavaScript", "TypeScript", "React"],
     link: "",
   },
@@ -35,7 +35,7 @@ export const experience = [
     exp: "2021-2023",
     title: "Senior IT Associate - vDoIT Technologies",
     description:
-      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility. Developed a desktop application using Electron.js that includes features for calling, instant messaging, and e-fax.",
     skills: [
       "JavaScript",
       "TypeScript",
