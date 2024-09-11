@@ -5,7 +5,7 @@ export const Card = (props: any) => {
   const { title, description, skills, link = "" } = props;
   return (
     <a
-      className="flex p-5 rounded-md hover:bg-[rgba(253,224,71,0.05)]   transition-[0.5s] exp-card"
+      className="flex p-5 rounded-md hover:bg-[rgba(253,224,71,0.05)]   transition-[0.5s] exp-card hover:shadow-md"
       href={link || socials.linkedin}
       target="_blank"
     >
