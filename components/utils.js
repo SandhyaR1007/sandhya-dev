@@ -5,7 +5,7 @@ export const projects = [
   {
     title: "Eyesome",
     description:
-      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "An e-commerce web app featuring cart, wishlist, address management, filters, sorting, debounce search, authentication, and payment integration with Razorpay. Seamless user experience with responsive design and efficient state management.",
     skills: ["JavaScript", "React", "Context API", "Tailwind CSS"],
     image:
       "https://res.cloudinary.com/dwdcib0hv/image/upload/v1725788322/projects/eyesomess_b9e3na.png",
@@ -14,7 +14,7 @@ export const projects = [
   {
     title: "Webuzz",
     description:
-      "Build and maintain critical components used to construct frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+      "A social media app featuring likes, bookmarks, nested comments, follow/unfollow, post creation, sorting, debounce search, authentication, and profile management.",
     skills: ["JavaScript", "React", "Redux", "Tailwind CSS"],
     image:
       "https://res.cloudinary.com/dwdcib0hv/image/upload/v1725788322/projects/webuzzss_k7ouva.png",
