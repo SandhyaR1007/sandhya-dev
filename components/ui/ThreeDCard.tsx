@@ -6,7 +6,7 @@ import React from "react";
 import perImg from "../../app/assets/per.webp";
 import { CardBody, CardContainer, CardItem } from "../shadcnUI/3d-card";
 
-export function ThreeDCardWrapper() {
+const ThreeDCard = () => {
   return (
     <CardContainer className="inter-var">
       <CardBody>
@@ -21,4 +21,5 @@ export function ThreeDCardWrapper() {
       </CardBody>
     </CardContainer>
   );
-}
+};
+export default ThreeDCard;
