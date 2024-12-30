@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #0f172a;
+  background-color: #0d0604;
   color: #f1f5f9;
   overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ body {
   transition: 0.15s ease-in;
 }
 .glass-effect {
-  background: rgba(3, 12, 30, 0.69);
+  background: rgba(31, 19, 16, 0.39);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.5px);
   -webkit-backdrop-filter: blur(9.5px);
