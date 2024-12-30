@@ -2,11 +2,11 @@
 
 import Image from "next/image";
 import React from "react";
-import userImg from "../../app/assets/userImg.jpg";
+
 import perImg from "../../app/assets/per.webp";
 import { CardBody, CardContainer, CardItem } from "../shadcnUI/3d-card";
 
-export function ThreeDCardDemo() {
+export function ThreeDCardWrapper() {
   return (
     <CardContainer className="inter-var">
       <CardBody>
