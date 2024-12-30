@@ -20,7 +20,6 @@ export const FloatingNav = ({
   className?: string;
 }) => {
   const { scrollYProgress } = useScroll();
-  console.log(scrollYProgress);
 
   const [visible, setVisible] = useState(false);
 
@@ -31,7 +30,7 @@ export const FloatingNav = ({
 
       if (scrollYProgress.get() === 0) {
         setTimeout(() => {
-          setVisible(false);
+          //   setVisible(false);
         }, 300);
       } else {
         setVisible(true);
