@@ -98,4 +98,5 @@ export const socials = {
   github: "https://github.com/SandhyaR1007",
   linkedin: "https://www.linkedin.com/in/sandhyarajwanshi/",
   twitter: "https://x.com/SandhyaR1007",
+  mail: "grajwanshi1008@gmail.com",
 };
