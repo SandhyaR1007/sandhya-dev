@@ -10,7 +10,7 @@ export const Card = (props: any) => {
       target="_blank"
     >
       {props.exp ? (
-        <div className="hidden md:block text-neutral-400 text-sm  w-1/4">
+        <div className="hidden md:block text-neutral-400 text-sm  w-1/4 pt-[2.5px]">
           {props.exp}
         </div>
       ) : (
