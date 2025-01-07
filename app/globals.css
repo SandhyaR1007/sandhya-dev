@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
 }
 
-.exp-card:hover :first-child {
+.exp-card:hover h2:first-child {
   color: #facc15;
 }
 .exp-card:hover .arrow-upward {
