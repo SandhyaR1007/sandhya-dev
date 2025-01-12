@@ -10,7 +10,7 @@ import { socials } from "./utils";
 
 const MainComponent = () => {
   return (
-    <main className="lg:w-[60%] relative lg:left-[200px] flex flex-col gap-16">
+    <main className="lg:w-[60%] relative lg:left-[270px] flex flex-col gap-16">
       <About />
 
       <Experience />
