@@ -5,18 +5,18 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Socials = () => {
   return (
     <ul className="flex gap-5 items-center">
-      <li className="text-3xl text-neutral-400 hover:text-white">
+      <li className="text-2xl text-neutral-400 hover:text-white">
         {" "}
         <a href={socials.github} target="_blank">
           <FaGithub />
         </a>
       </li>
-      <li className="text-3xl text-neutral-400 hover:text-white">
+      <li className="text-2xl text-neutral-400 hover:text-white">
         <a href={socials.linkedin} target="_blank">
           <FaLinkedin />
         </a>
       </li>
-      <li className="text-3xl text-neutral-400 hover:text-white">
+      <li className="text-2xl text-neutral-400 hover:text-white">
         <a href={socials.twitter} target="_blank">
           <FaSquareXTwitter />
         </a>

@@ -1,35 +1,40 @@
 "use client";
-const Navbar = () => {
-  return (
-    <nav className="hidden lg:flex flex-col gap-4 ">
-      <a
-        href="#about"
-        className="flex  items-center gap-3 active:text-white text-slate-400 "
-      >
-        <p className="w-14 h-0.5 bg-slate-400  navItem" />
-        <p className="text-[15px] font-semibold text-slate-400 tracking-[0.15rem]">
-          ABOUT
-        </p>
-      </a>
-      <a
-        href="#experience"
-        className="flex  items-center gap-3 active:text-white text-slate-400"
-      >
-        <p className="w-14 h-0.5 bg-slate-400" />
-        <p className="text-[15px] font-semibold text-slate-400 tracking-[0.15rem]">
-          EXPERIENCE
-        </p>
-      </a>
+import React from "react";
 
-      <a
-        href="#projects"
-        className="flex  items-center gap-3 active:text-white text-slate-400"
-      >
-        <p className="w-14 h-0.5 bg-slate-400" />
-        <p className="text-[15px] font-semibold  tracking-[0.15rem]">
-          PROJECTS
-        </p>
-      </a>
+type NavbarProps = {
+  currentTab?: string;
+  setCurrentTab?: (t: string) => void;
+};
+
+const Navbar: React.FC<NavbarProps> = ({
+  currentTab = "about",
+  setCurrentTab,
+}) => {
+  const items = [
+    { key: "about", label: "ABOUT" },
+    { key: "experience", label: "EXPERIENCE" },
+    { key: "projects", label: "PROJECTS" },
+  ];
+
+  return (
+    <nav className="flex gap-3 flex-wrap">
+      {items.map((item) => {
+        const active = currentTab === item.key;
+        return (
+          <button
+            key={item.key}
+            onClick={() => setCurrentTab && setCurrentTab(item.key)}
+            className={
+              "px-4 py-2 rounded-full text-sm font-semibold transition-colors " +
+              (active
+                ? "bg-yellow-400/10 text-yellow-300 border border-yellow-300/20"
+                : "text-slate-300/80 glass hover:text-white")
+            }
+          >
+            {item.label}
+          </button>
+        );
+      })}
     </nav>
   );
 };
